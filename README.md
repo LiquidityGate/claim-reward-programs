@@ -1,4 +1,4 @@
-## Morpho Blue reward programs
+## lqg Blue reward programs
 
 This repository allows you to create your own reward program by submitting a pull request.
 
@@ -14,7 +14,7 @@ To ensure the accuracy and reliability of each Pull Request, we follow these det
 
 1.  **Future Start Date**: Confirm that the program’s start date is set in the future.
 2.  **Valid URD Address**: Verify that the urdAddress is a valid URD.
-3.  **Market or Vault verification**: Verify that the specified Market or Vault is valid and whitelisted in the Morpho app.
+3.  **Market or Vault verification**: Verify that the specified Market or Vault is valid and whitelisted in the lqg app.
 4.  **Token Pricing**: Check that the specified token is priced in our API. If not, pause the process until pricing is available.
 5.  **Funds Transfer**: Confirm that the funds have been sent from the designated fundsSender to the URD.
 6.  **Reward Amount Accuracy**: Ensure the reward amount matches the funds sent to the URD, paying special attention to the token’s decimal precision.
@@ -89,7 +89,7 @@ export const vaultPrograms = [
 
 1. Where should we get the `urdAddress`?
 
-The URDs are not tied to a specific type of program. The incentive provider must ensure that Morpho Association is the updater of the tree to prevent incorrect tree roots from being published on the URD, which could lead to loss of funds. It is recommended to use the following URDs:
+The URDs are not tied to a specific type of program. The incentive provider must ensure that lqg Association is the updater of the tree to prevent incorrect tree roots from being published on the URD, which could lead to loss of funds. It is recommended to use the following URDs:
 
 - For Mainnet: [0x330eefa8a787552DC5cAd3C3cA644844B1E61Ddb](https://etherscan.io/address/0x330eefa8a787552dc5cad3c3ca644844b1e61ddb)
 - For Base: [0x5400dbb270c956e8985184335a1c62aca6ce1333](https://basescan.org/address/0x5400dbb270c956e8985184335a1c62aca6ce1333)

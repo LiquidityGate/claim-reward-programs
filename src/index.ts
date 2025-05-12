@@ -6,7 +6,7 @@ import {
   VaultRewardProgram,
   AirdropRewardProgram,
   RewardProgram,
-} from "@morpho-org/blue-rewards-core-sdk";
+} from "@lqg-org/blue-rewards-core-sdk";
 
 import { AirdropRewardProgramArgs, airdropPrograms } from "./airdrop-programs";
 import { MarketRewardProgramArgs, marketPrograms } from "./market-programs";

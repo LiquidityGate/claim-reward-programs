@@ -1,6 +1,6 @@
 import { parseUnits } from "viem";
 
-import { Address, ChainId } from "@morpho-org/blue-rewards-core-sdk";
+import { Address, ChainId } from "@lqg-org/blue-rewards-core-sdk";
 
 export type AirdropRewardProgramArgs = {
   claimDate: bigint;

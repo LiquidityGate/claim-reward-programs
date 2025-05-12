@@ -1,7 +1,7 @@
 {
-  "name": "@morpho-org/blue-reward-programs",
+  "name": "@lqg-org/blue-reward-programs",
   "version": "1.4.12",
-  "author": "Morpho Association <contact@morpho.org>",
+  "author": "lqg Association <contact@lqg.org>",
   "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -33,8 +33,8 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@morpho-org/blue-rewards-core-sdk": "0.0.20",
-    "@morpho-org/morpho-ts": "^1.4.5",
+    "@lqg-org/blue-rewards-core-sdk": "0.0.20",
+    "@lqg-org/lqg-ts": "^1.4.5",
     "viem": "^2.9.31"
   },
   "lint-staged": {

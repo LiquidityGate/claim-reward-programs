@@ -1,6 +1,6 @@
 import { parseUnits } from "viem";
 
-import { Address, ChainId, Hex } from "@morpho-org/blue-rewards-core-sdk";
+import { Address, ChainId, Hex } from "@lqg-org/blue-rewards-core-sdk";
 
 export type MarketRewardProgramArgs = {
   marketId: Hex;
@@ -53,7 +53,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // ezETH/WETH 20,000 MORPHO
+  // ezETH/WETH 20,000 lqg
   {
     start: 1717218000n,
     end: 1719810000n,
@@ -68,7 +68,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // WOETH/WETH 6,667 MORPHO
+  // WOETH/WETH 6,667 lqg
   {
     start: 1717632000n,
     end: 1720224000n,
@@ -84,7 +84,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     chainId: ChainId.MAINNET,
   },
   // CURVE
-  // stkcvxcrvUSDCWBTCWETH-morpho/crvUSD 36,000 CRV
+  // stkcvxcrvUSDCWBTCWETH-lqg/crvUSD 36,000 CRV
   {
     start: 1717761600n,
     end: 1720353600n,
@@ -99,7 +99,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // stkcvxcrvUSDCWBTCWETH-morpho/crvUSD 49,950 MORPHO
+  // stkcvxcrvUSDCWBTCWETH-lqg/crvUSD 49,950 lqg
   {
     start: 1717761600n,
     end: 1720353600n,
@@ -114,7 +114,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // stkcvxcrvUSDTWBTCWETH-morpho/crvUSD 36,000 CRV
+  // stkcvxcrvUSDTWBTCWETH-lqg/crvUSD 36,000 CRV
   {
     start: 1717761600n,
     end: 1720353600n,
@@ -129,7 +129,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // stkcvxcrvUSDTWBTCWETH-morpho/crvUSD 49,950 MORPHO
+  // stkcvxcrvUSDTWBTCWETH-lqg/crvUSD 49,950 lqg
   {
     start: 1717761600n,
     end: 1720353600n,
@@ -144,7 +144,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // stkcvxcrvCRVUSDTBTCWSTETH-morpho/crvUSD 18,000 CRV
+  // stkcvxcrvCRVUSDTBTCWSTETH-lqg/crvUSD 18,000 CRV
   {
     start: 1717761600n,
     end: 1720353600n,
@@ -159,7 +159,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // stkcvxcrvCRVUSDTBTCWSTETH-morpho/crvUSD 24,975 MORPHO
+  // stkcvxcrvCRVUSDTBTCWSTETH-lqg/crvUSD 24,975 lqg
   {
     start: 1717761600n,
     end: 1720353600n,
@@ -174,7 +174,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // stkcvxTryLSD-morpho/crvUSD 12,000 CRV
+  // stkcvxTryLSD-lqg/crvUSD 12,000 CRV
   {
     start: 1717761600n,
     end: 1720353600n,
@@ -189,7 +189,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // stkcvxTryLSD-morpho/crvUSD 16,650 MORPHO
+  // stkcvxTryLSD-lqg/crvUSD 16,650 lqg
   {
     start: 1717761600n,
     end: 1720353600n,
@@ -204,7 +204,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // stkcvxcrvUSDETHCRV-morpho/crvUSD 18,000 CRV
+  // stkcvxcrvUSDETHCRV-lqg/crvUSD 18,000 CRV
   {
     start: 1717761600n,
     end: 1720353600n,
@@ -219,7 +219,7 @@ export const marketPrograms: MarketRewardProgramArgs[] = [
     },
     chainId: ChainId.MAINNET,
   },
-  // stkcvxcrvUSDETHCRV-morpho/crvUSD 24,975 MORPHO
+  // stkcvxcrvUSDETHCRV-lqg/crvUSD 24,975 lqg
   {
     start: 1717761600n,
     end: 1720353600n,

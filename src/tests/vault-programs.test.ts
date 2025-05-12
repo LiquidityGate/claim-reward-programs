@@ -2,7 +2,7 @@ import {
   VaultRewardProgram,
   isTimestampInSeconds,
   isValidTimestamp,
-} from "@morpho-org/blue-rewards-core-sdk";
+} from "@lqg-org/blue-rewards-core-sdk";
 
 import { OffchainPrograms } from "..";
 

@@ -1,6 +1,6 @@
 import { parseUnits } from "viem";
 
-import { Address, ChainId } from "@morpho-org/blue-rewards-core-sdk";
+import { Address, ChainId } from "@lqg-org/blue-rewards-core-sdk";
 
 export type VaultRewardProgramArgs = {
   vault: Address;
@@ -1142,7 +1142,7 @@ export const vaultPrograms: VaultRewardProgramArgs[] = [
     amount: parseUnits("100", 18),
     chainId: ChainId.MAINNET,
   },
-  // Kiln bootstrap - 10k MORPHOs 04/28-05/12 8am GMT
+  // Kiln bootstrap - 10k lqgs 04/28-05/12 8am GMT
   {
     start: 1745910000n,
     end: 1747123200n,
